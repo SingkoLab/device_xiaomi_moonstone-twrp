@@ -19,13 +19,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.holi
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.holi \
-    libgptutils \
-    libz \
-    libcutils
+    bootctrl.moonstone.recovery \
+    android.hardware.boot@1.1-impl-qti.recovery
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
