@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_moonstone.mk
+    $(LOCAL_DIR)/twrp_moonstone.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_moonstone-user \
-    omni_moonstone-userdebug \
-    omni_moonstone-eng
+    twrp_moonstone-user \
+    twrp_moonstone-userdebug \
+    twrp_moonstone-eng
